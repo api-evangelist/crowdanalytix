@@ -1,8 +1,12 @@
 aid: crowdanalytix
 name: CrowdAnalytix
-description: 'CrowdAnalytix is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'CrowdAnalytix (CAX) is a crowdsourced data science and predictive analytics platform
+  that connects enterprises with a global community of data scientists to build, test, and compare
+  machine learning models through hosted modeling competitions. The company runs prediction and
+  classification contests across industries such as consumer packaged goods, retail, banking,
+  insurance, and healthcare, and has extended into AI/ML model development, data annotation and
+  labeling, and packaged AI solutions. Headquartered in Frisco, Texas with operations in Bangalore,
+  India, CrowdAnalytix is backed by Accel.'
 url: https://raw.githubusercontent.com/api-evangelist/crowdanalytix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,29 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.crowdanalytix.com/assets/logo/dataX-icon.svg
 tags:
 - Company
 - Ai
+- Machine Learning
+- Data Science
+- Predictive Analytics
+- Crowdsourcing
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crowdanalytix-domain-security.yml
 - type: Website
-  url: http://www.crowdanalytix.com
+  url: https://www.crowdanalytix.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
